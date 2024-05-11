@@ -1,0 +1,13 @@
+abstract class GameObject {
+    protected PVector position;
+    protected PImage image;
+
+    GameObject(float x, float y, PImage image) {
+        position = new PVector(x, y);
+        this.image = image;
+    }
+
+    abstract void display();
+
+    abstract void move();
+}
