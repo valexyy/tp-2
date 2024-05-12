@@ -1,0 +1,3 @@
+class Auto{
+  PImage image;
+}
